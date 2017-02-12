@@ -7,5 +7,5 @@ let rec last list =
   | _ :: xs -> last xs
 
 let () =
-  assert ((last []) = None);
-  assert ((last [ "a"; "b"; "c"; "d" ]) = (Some "d"))
+  assert ((last [ "a"; "b"; "c"; "d" ]) = (Some "d"));
+  assert ((last []) = None)
